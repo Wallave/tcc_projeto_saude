@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cadastro-pai{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 5%;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.titulo-cadastro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    position: relative;
+    left: 25%;
+}
+.cadastro-dado{
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+    align-items: start;
+    position: relative;
+    margin-top: 7%;
+    right: 12%;
+}
+.cadastro-dado label{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-left: 0%;
+    
+}
+.cadastro-dado input{
+    width: 100vh;
+    height: 2rem;
+    text-align: center;
+}
+.cadastro{
+    width: 100vh;
+    height: 2rem;
+    margin-top: 2%;
+    align-items: center;
+    background-color: rgb(8, 173, 118);
+    border: solid 1px black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.conta{
+    position: relative;
+    margin-top: 10%;
+    left: 35%;
+    color: darkturquoise;
+}
+.imagem{
+    float:right;
+    position: relative;
+    right: 10%;
+    margin-top: 10%;
+}
+.link{
+    text-decoration: none;
+}
+input{
+    font-size: 15px;
+}
+.linha{
+    height: 5px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    width: 700px;
+    position: absolute;
+    left: -250px;
+}
+.cadas-usu{
+    text-decoration: none;
+    color: rgb(35, 126, 95);
+    font-size: 30px;
+    position: relative;
+    right: 250px;
+    top: 5px;
+}
+.cadas-uni{
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    left: 230px;
+    top: 5px;
+    color: black;
+}

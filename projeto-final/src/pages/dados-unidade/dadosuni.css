@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inteiro{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(1, 165, 124);
+}
+.cabecalho img{
+    height: 70px;
+    width: 70px;
+}
+.cabecalho h4{
+    color: white;
+}
+.info-img{
+    display: flex;
+    flex-direction: row;
+}
+.info-unidade{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+.info-unidade label{
+    font-size: 20px;
+}
+.img-local{
+    display: flex;
+    margin-left: 20%;
+}

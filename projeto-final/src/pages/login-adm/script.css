@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-pai{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 5%;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.login{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.conteudo-login{
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+    align-items: start;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+.conteudo-login label{
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-left: 0%;
+    
+
+}
+.conteudo-login input{
+    width: 100vh;
+    height: 2rem;
+    text-align: center;
+
+    
+}
+.entrar{
+    width: 100vh;
+    height: 2rem;
+    margin-top: 2%;
+    align-items: center;
+    background-color: rgb(8, 173, 118);
+    border: solid 1px black;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}
+.esquece-senha{
+    position: relative;
+    margin-top: 10%;
+    left: 35%;
+    color: darkturquoise;
+    
+}
+.img{
+    float:right;
+    position: relative;
+    right: 15%;
+}
+.link{
+    text-decoration: none;
+}
+.linha-login{
+    height: 5px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 40px;
+}
+.log-usu{
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    right: 200px;
+    top: 5px;
+    color: rgb(35, 126, 95);
+}
+.log-uni{
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    left: 250px;
+    top: 5px;
+    color: black;
+}

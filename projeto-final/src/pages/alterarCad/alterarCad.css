@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tela{
+  width:100% ;
+  height: 100%;
+}
+.topoInfo{
+  border: 1px solid;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+.centro{
+  display: flex;
+  position: relative;
+  top: 35%;
+  left: 5%;
+  font-size: 25px;
+  font-weight: 100;
+}
+.logoRem{
+  position: relative;
+  left: 12%;
+  display: flex;
+  flex-direction: row;
+}
+.logoRem h4{
+  font-size: 20px;
+  position: relative;
+  top: 100px;
+  right: 120px;
+}
+.remedio{
+  height: 80px;
+  width: 80px;
+}
+#img-rem{
+  position: relative;
+  left: 50px;
+}
+.infoDados{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.dadosUsuario{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 10px;
+  align-items: start;
+  left: 10%;
+  top: 150px;
+  font-size: 20px;
+}
+.dadosUsuario input{
+  height: 35px;
+  width: 700px;
+  border-radius: 0%;
+  text-align: center;
+  font-size: large;
+}
+.dadosUsuario button{
+  width: 700px;
+  font-size: 20px;
+}
+.logoBusca{
+  position: relative;
+  left: 450px;
+  top: 120px;
+  height: 400px;
+}
+.links{
+  text-decoration: none;
+  color: white;
+}
